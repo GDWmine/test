@@ -3,3 +3,4 @@ from func import jiafa
 
 chaxun("show tables;")
 jiafa(15,50)
+print("hhhhhhh")
