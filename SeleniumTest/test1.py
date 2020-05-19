@@ -22,12 +22,12 @@ time.sleep(1)
 driver.find_element_by_xpath('//*[@id="main"]/div[2]/div[2]/table/tbody/tr[1]/td[18]/a[3]').click()
 time.sleep(1)
 
-driver.switch_to.frame("layui-layer-iframe1") 
+driver.switch_to.frame(driver.find_element_by_id("layui-layer-iframe1"))
 driver.find_element_by_xpath('/html/body/div[2]/div/div/section/div[2]/div/div[1]/a').click()
 time.sleep(1)
 
 # driver.switch_to.frame("layui-layer-content") 
-# driver.find_element_by_xpath('/html/body/div[2]/div/div/section/div[2]/div[1]/table/tbody/tr[2]/td[12]/div/a[1]').click()
+driver.find_element_by_xpath('/html/body/div[2]/div/div/section/div[2]/div[1]/table/tbody/tr[2]/td[12]/div/a[1]').click()
 # time.sleep(1)
 
 
